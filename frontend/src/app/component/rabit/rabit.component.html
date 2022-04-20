@@ -1,0 +1,14 @@
+<h3>Hasenstall</h3>
+<p-fieldset legend="Buttons" [toggleable]="true">
+    <button (click)="onPrimaryButtonClick()" pButton pRipple type="button" label="Primary" class="p-button-outlined"></button>
+    <button pButton pRipple type="button" label="Secondary" class="p-button-outlined p-button-secondary"></button>
+    <button pButton pRipple type="button" label="Success" class="p-button-outlined p-button-success"></button>
+    <button pButton pRipple type="button" label="Info" class="p-button-outlined p-button-info"></button>
+    <button pButton pRipple type="button" label="Warning" class="p-button-outlined p-button-warning"></button>
+</p-fieldset>
+<div class="spacer"></div>
+<p-fieldset legend="Measures" [toggleable]="true">
+    <p-knob [(ngModel)]="this.currentMillisService.currentMillis"></p-knob>
+</p-fieldset>
+
+

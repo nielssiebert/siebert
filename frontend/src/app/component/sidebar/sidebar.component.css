@@ -1,0 +1,25 @@
+.mymenu{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+.my-menu-panel{
+    color: aquamarine;
+}
+.app-header{
+    background-color: var(--surface-ground);
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.app-body{
+    background-color: var(--surface-overlay);
+    padding: 20px;
+    margin-left: -10px;
+    color: var(--text-color);
+    height: 100%;
+}
+.app-site{
+    height: 200vh;
+    width: 100%;
+}

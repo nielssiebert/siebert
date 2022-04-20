@@ -1,0 +1,16 @@
+<p-toast></p-toast>
+<div class="app-site">
+    <p-sidebar [(visible)]="display">
+        <div>
+            <p-menu class="my-menu-panel" [model]="items" [style]="{'white-space':'nowrap', 'width': 'auto'}">
+            </p-menu>
+        </div>
+        
+    </p-sidebar>
+    <div class="app-header">
+        <button pButton pRipple type="text" (click)="display = true" icon="pi pi-bars" label="Menu"></button>
+    </div>
+    <div class="app-body">
+        <router-outlet></router-outlet>
+    </div>
+</div>
